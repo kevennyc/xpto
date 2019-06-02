@@ -1,0 +1,120 @@
+@relation NewRelation
+@attribute ano numeric
+@attribute dia_semana {domingo,quarta-feira,quinta-feira,segunda-feira,sexta-feira,sábado,terça-feira}
+@attribute uf {PB,PE,RN}
+@attribute br numeric
+@attribute municipio {'JOAO PESSOA',NATAL,RECIFE}
+@attribute classificacao {'Com Vítimas Fatais','Com Vítimas Feridas','Sem Vítimas'}
+@attribute fase_dia {Amanhecer,Anoitecer,'Plena Noite','Pleno dia'}
+@attribute tempo {Chuva,'Céu Claro',Garoa/Chuvisco,Nublado,Sol}
+@attribute tipo_pista {Dupla,Múltipla,Simples}
+@attribute tracado {Curva,'Desvio Temporário','Interseção de vias','Não Informado',Ponte,Reta,Rotatória,Viaduto}
+@attribute total_pessoas numeric
+@attribute mortos numeric
+@attribute feridos numeric
+@attribute Risco {Alto,Baixo,Medio,'Muito Alto',Nulo}
+@data
+2018,segunda-feira,PE,232,RECIFE,'Com Vítimas Fatais','Plena Noite','Céu Claro',Dupla,Reta,3,1,0,Medio
+2018,terça-feira,PE,101,RECIFE,'Com Vítimas Fatais',Amanhecer,'Céu Claro',Dupla,'Interseção de vias',6,1,1,Medio
+2018,quarta-feira,PB,101,'JOAO PESSOA','Com Vítimas Fatais','Pleno dia',Chuva,Dupla,'Não Informado',4,2,0,Alto
+2018,sexta-feira,RN,101,NATAL,'Com Vítimas Fatais',Amanhecer,Chuva,Simples,Reta,1,1,0,'Muito Alto'
+2018,quinta-feira,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite',Chuva,Dupla,Reta,1,1,0,'Muito Alto'
+2018,terça-feira,RN,101,NATAL,'Com Vítimas Fatais','Plena Noite','Céu Claro',Múltipla,Reta,2,1,0,Alto
+2018,quarta-feira,PE,101,RECIFE,'Com Vítimas Fatais','Pleno dia','Céu Claro',Simples,'Não Informado',2,1,0,Alto
+2018,quarta-feira,PE,232,RECIFE,'Com Vítimas Fatais','Plena Noite',Nublado,Dupla,Reta,2,1,0,Alto
+2018,sábado,RN,101,NATAL,'Com Vítimas Fatais','Plena Noite',Garoa/Chuvisco,Dupla,Reta,4,1,2,Alto
+2018,domingo,PE,101,RECIFE,'Com Vítimas Fatais','Pleno dia','Céu Claro',Dupla,Reta,2,1,0,'Muito Alto'
+2018,quarta-feira,RN,101,NATAL,'Com Vítimas Fatais','Pleno dia',Sol,Múltipla,Curva,5,1,1,Alto
+2018,domingo,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite',Nublado,Dupla,Reta,3,1,1,Alto
+2018,domingo,RN,226,NATAL,'Com Vítimas Fatais',Amanhecer,'Céu Claro',Simples,Reta,1,1,0,'Muito Alto'
+2018,domingo,PB,230,'JOAO PESSOA','Com Vítimas Fatais','Pleno dia',Sol,Múltipla,Reta,3,1,2,'Muito Alto'
+2018,sábado,RN,101,NATAL,'Com Vítimas Fatais',Amanhecer,'Céu Claro',Múltipla,Curva,2,1,1,Alto
+2018,quinta-feira,PE,232,RECIFE,'Com Vítimas Fatais','Plena Noite','Céu Claro',Dupla,Reta,1,1,0,'Muito Alto'
+2018,quarta-feira,PB,230,'JOAO PESSOA','Com Vítimas Fatais','Pleno dia','Céu Claro',Dupla,Reta,3,1,0,Alto
+2018,sexta-feira,PB,101,'JOAO PESSOA','Com Vítimas Fatais',Anoitecer,'Céu Claro',Múltipla,Reta,2,1,0,'Muito Alto'
+2018,quinta-feira,PB,101,'JOAO PESSOA','Com Vítimas Fatais','Plena Noite','Céu Claro',Dupla,Reta,2,1,0,'Muito Alto'
+2018,terça-feira,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite','Céu Claro',Simples,Reta,2,1,0,'Muito Alto'
+2018,sábado,PE,101,RECIFE,'Com Vítimas Fatais',Anoitecer,'Céu Claro',Múltipla,Reta,2,1,0,'Muito Alto'
+2018,sábado,PB,101,'JOAO PESSOA','Com Vítimas Fatais','Pleno dia','Céu Claro',Dupla,'Desvio Temporário',2,1,0,'Muito Alto'
+2018,terça-feira,PE,101,RECIFE,'Com Vítimas Fatais','Pleno dia','Céu Claro',Dupla,Reta,2,1,0,'Muito Alto'
+2018,quinta-feira,PB,230,'JOAO PESSOA','Com Vítimas Fatais','Plena Noite',Nublado,Dupla,Curva,2,1,0,'Muito Alto'
+2019,quarta-feira,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite',Chuva,Dupla,Reta,1,1,0,'Muito Alto'
+2019,sábado,PE,101,RECIFE,'Com Vítimas Fatais',Anoitecer,Nublado,Dupla,Rotatória,3,1,0,Alto
+2019,domingo,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite','Céu Claro',Dupla,Reta,2,1,1,'Muito Alto'
+2019,domingo,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite',Chuva,Dupla,Curva,2,1,1,'Muito Alto'
+2019,domingo,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite',Nublado,Dupla,Reta,1,1,0,'Muito Alto'
+2019,domingo,PB,230,'JOAO PESSOA','Com Vítimas Fatais','Plena Noite','Céu Claro',Dupla,Reta,1,1,0,'Muito Alto'
+2019,domingo,RN,101,NATAL,'Com Vítimas Fatais','Plena Noite','Céu Claro',Múltipla,Reta,2,1,0,'Muito Alto'
+2019,sexta-feira,RN,226,NATAL,'Com Vítimas Fatais','Pleno dia',Garoa/Chuvisco,Simples,Reta,2,1,0,'Muito Alto'
+2019,sexta-feira,PE,101,RECIFE,'Com Vítimas Fatais','Plena Noite','Céu Claro',Dupla,'Não Informado',3,1,0,Alto
+2018,segunda-feira,PE,101,RECIFE,'Com Vítimas Feridas','Plena Noite','Céu Claro',Múltipla,Reta,1,0,1,Medio
+2018,segunda-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Reta,1,0,1,Medio
+2018,segunda-feira,RN,101,NATAL,'Com Vítimas Feridas','Pleno dia','Céu Claro',Simples,'Interseção de vias',2,0,1,Medio
+2018,segunda-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas',Anoitecer,'Céu Claro',Dupla,Reta,3,0,1,Baixo
+2018,terça-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Pleno dia',Sol,Dupla,'Não Informado',3,0,2,Medio
+2018,terça-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas',Anoitecer,Nublado,Dupla,Reta,6,0,2,Medio
+2018,quarta-feira,PE,232,RECIFE,'Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Reta,2,0,1,Medio
+2018,sexta-feira,RN,101,NATAL,'Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Reta,6,0,1,Baixo
+2018,sexta-feira,RN,101,NATAL,'Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,'Interseção de vias',3,0,1,Baixo
+2018,sexta-feira,RN,101,NATAL,'Com Vítimas Feridas','Plena Noite','Céu Claro',Múltipla,'Interseção de vias',2,0,1,Medio
+2018,domingo,RN,101,NATAL,'Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,'Não Informado',4,0,2,Medio
+2018,domingo,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Reta,4,0,2,Medio
+2018,domingo,PE,101,RECIFE,'Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Reta,1,0,1,Medio
+2018,segunda-feira,PE,101,RECIFE,'Com Vítimas Feridas','Pleno dia','Céu Claro',Múltipla,Reta,1,0,1,Medio
+2018,terça-feira,PB,101,'JOAO PESSOA','Com Vítimas Feridas','Pleno dia',Nublado,Simples,'Não Informado',2,0,2,Medio
+2018,quarta-feira,PE,408,RECIFE,'Com Vítimas Feridas','Pleno dia',Nublado,Dupla,Reta,2,0,2,Medio
+2018,quarta-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas',Amanhecer,'Céu Claro',Dupla,Reta,3,0,3,Medio
+2018,quinta-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Curva,2,0,1,Medio
+2018,sexta-feira,RN,101,NATAL,'Com Vítimas Feridas','Pleno dia','Céu Claro',Simples,'Interseção de vias',3,0,3,Medio
+2018,sexta-feira,PB,230,'JOAO PESSOA','Com Vítimas Feridas',Anoitecer,'Céu Claro',Dupla,Curva,5,0,1,Baixo
+2018,sexta-feira,RN,101,NATAL,'Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Reta,3,0,1,Baixo
+2018,sábado,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,'Não Informado',2,0,1,Medio
+2018,domingo,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Curva,1,0,1,Medio
+2018,domingo,RN,101,NATAL,'Com Vítimas Feridas','Plena Noite',Garoa/Chuvisco,Dupla,Reta,1,0,1,Medio
+2018,domingo,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,'Não Informado',1,0,1,Medio
+2018,domingo,PE,101,RECIFE,'Com Vítimas Feridas','Plena Noite',Nublado,Dupla,Reta,2,0,1,Medio
+2018,domingo,RN,101,NATAL,'Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Reta,2,0,1,Medio
+2018,quinta-feira,RN,101,NATAL,'Com Vítimas Feridas',Anoitecer,Chuva,Dupla,Reta,2,0,1,Medio
+2018,quinta-feira,PE,101,RECIFE,'Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Reta,2,0,1,Medio
+2018,quinta-feira,PE,101,RECIFE,'Com Vítimas Feridas','Plena Noite',Nublado,Simples,Reta,2,0,1,Medio
+2018,sexta-feira,PE,101,RECIFE,'Com Vítimas Feridas','Plena Noite',Nublado,Dupla,Reta,2,0,1,Medio
+2018,sábado,PE,232,RECIFE,'Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Reta,1,0,1,Medio
+2018,sábado,PB,230,'JOAO PESSOA','Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Curva,2,0,2,Medio
+2018,sábado,RN,101,NATAL,'Com Vítimas Feridas','Pleno dia','Céu Claro',Dupla,Reta,2,0,1,Medio
+2018,sábado,RN,101,NATAL,'Com Vítimas Feridas','Plena Noite','Céu Claro',Dupla,Reta,2,0,1,Medio
+2018,terça-feira,PB,101,'JOAO PESSOA','Sem Vítimas','Plena Noite','Céu Claro',Dupla,Reta,1,0,0,Nulo
+2018,sexta-feira,PB,230,'JOAO PESSOA','Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,3,0,0,Nulo
+2018,sexta-feira,RN,406,NATAL,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,2,0,0,Nulo
+2018,sábado,PB,230,'JOAO PESSOA','Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,1,0,0,Nulo
+2018,sábado,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Sol,Múltipla,Reta,1,0,0,Nulo
+2018,sábado,PE,101,RECIFE,'Sem Vítimas',Anoitecer,Nublado,Múltipla,'Interseção de vias',2,0,0,Nulo
+2018,sábado,PE,232,RECIFE,'Sem Vítimas','Plena Noite','Céu Claro',Dupla,Reta,1,0,0,Nulo
+2018,terça-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia','Céu Claro',Múltipla,Reta,4,0,0,Nulo
+2018,quarta-feira,PE,101,RECIFE,'Sem Vítimas','Plena Noite','Céu Claro',Dupla,Reta,1,0,0,Nulo
+2018,quarta-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Chuva,Dupla,Reta,4,0,0,Nulo
+2018,quarta-feira,PE,232,RECIFE,'Sem Vítimas','Pleno dia',Chuva,Simples,Viaduto,3,0,0,Nulo
+2018,quinta-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,'Não Informado',3,0,0,Nulo
+2018,sábado,PB,230,'JOAO PESSOA','Sem Vítimas','Pleno dia','Céu Claro',Dupla,Curva,1,0,0,Nulo
+2018,domingo,PE,101,RECIFE,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,2,0,0,Nulo
+2018,quarta-feira,PE,232,RECIFE,'Sem Vítimas','Plena Noite','Céu Claro',Dupla,Reta,2,0,0,Nulo
+2018,quinta-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Sol,Dupla,Reta,1,0,0,Nulo
+2018,domingo,PE,101,RECIFE,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,'Não Informado',3,0,0,Nulo
+2018,domingo,PB,230,'JOAO PESSOA','Sem Vítimas','Plena Noite',Nublado,Dupla,'Não Informado',2,0,0,Nulo
+2018,domingo,PE,101,RECIFE,'Sem Vítimas','Plena Noite','Céu Claro',Dupla,Reta,1,0,0,Nulo
+2018,segunda-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Sol,Simples,Reta,2,0,0,Nulo
+2018,segunda-feira,PE,232,RECIFE,'Sem Vítimas','Plena Noite',Nublado,Dupla,Reta,2,0,0,Nulo
+2018,terça-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Nublado,Dupla,Reta,4,0,0,Nulo
+2018,quinta-feira,PB,230,'JOAO PESSOA','Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,3,0,0,Nulo
+2018,quinta-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Sol,Dupla,Viaduto,3,0,0,Nulo
+2018,sexta-feira,PE,232,RECIFE,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,3,0,0,Nulo
+2018,sexta-feira,PE,101,RECIFE,'Sem Vítimas','Plena Noite',Garoa/Chuvisco,Simples,'Desvio Temporário',3,0,0,Nulo
+2018,segunda-feira,PE,232,RECIFE,'Sem Vítimas','Plena Noite','Céu Claro',Múltipla,Viaduto,4,0,0,Nulo
+2018,quinta-feira,PE,101,RECIFE,'Sem Vítimas','Pleno dia',Nublado,Simples,'Não Informado',3,0,0,Nulo
+2018,sábado,PB,230,'JOAO PESSOA','Sem Vítimas','Plena Noite','Céu Claro',Dupla,Curva,1,0,0,Nulo
+2018,domingo,RN,101,NATAL,'Sem Vítimas','Plena Noite','Céu Claro',Múltipla,Reta,1,0,0,Nulo
+2018,sábado,PE,101,RECIFE,'Sem Vítimas',Anoitecer,'Céu Claro',Múltipla,Reta,3,0,0,Nulo
+2018,segunda-feira,PB,230,'JOAO PESSOA','Sem Vítimas','Pleno dia','Céu Claro',Dupla,Curva,1,0,0,Nulo
+2018,terça-feira,PB,230,'JOAO PESSOA','Sem Vítimas','Pleno dia',Chuva,Dupla,Reta,1,0,0,Nulo
+2018,terça-feira,RN,101,NATAL,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,3,0,0,Nulo
+2018,quinta-feira,RN,101,NATAL,'Sem Vítimas','Pleno dia','Céu Claro',Dupla,Reta,3,0,0,Nulo
+2018,sábado,RN,101,NATAL,'Sem Vítimas','Pleno dia',Chuva,Dupla,Ponte,4,0,0,Nulo
